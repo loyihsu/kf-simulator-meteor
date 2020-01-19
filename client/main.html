@@ -1,0 +1,27 @@
+<head>
+    <title>C-HANer-free</title>
+</head>
+
+<body>
+    {{> koreanfish}}
+</body>
+
+<template name="koreanfish">
+    <div class="container centered">
+        <h1 style="padding-top: 24pt;">Koreanfish</h1>
+        <div class="container" id="chatdiv" style="padding-top:12pt;">
+            <textarea style="resize:none;  -moz-user-select: none;-khtml-user-select: none; -webkit-user-select: none; -ms-user-select: none; user-select: none; border-radius: 7px; border: 1px lightgray solid; padding: 5px; width: 100%;" id="chatarea" rows="10" readonly>{{{contents}}}</textarea>
+        </div>
+        <div id="interactiondiv" style="padding-top: 12pt; ">
+            <form id="interaction">
+                <input id="input" placeholder="你今天想跟 Koreanfish 說什麼？" style="width: 100px; border-radius: 7px; border: 1px lightgray solid; padding: 5px; width:96%;" autocomplete="off"><br><br><input id="song" class="btn btn-dark" type="submit" value="送啦"> <input id="ching" class="btn btn-light" type="reset" value="擦乾淨">
+            </form>
+        </div>
+        <br>
+        Inspired by 我學長的 Facebook Post<br>
+        沒有政治立場。<br>
+        真的沒有。<br><br>
+        <img src="/fish/kf.jpg" style="width: 100%;">
+        <br>
+    </div>
+</template>
