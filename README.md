@@ -4,9 +4,7 @@
 
 This is a KF simulator I (Loyi) wrote in May 2019.
 
-It was written due to KS Mayor Han in Taiwan then kept repeating "FA-DA-CAI" (earn a great fortune) when asked anything in the City Council. One of my Facebook friend said that he wondered whether the mayor can pass the Turing Test.
-
-So I wrote a chatbot which kept replying "FA-DA-CAI" to the incoming requests. And it sort of works...
+It was written as KS Mayor Han in Taiwan kept repeating "FA-DA-CAI" (earn a great fortune) when asked anything in the City Council then. One of my Facebook friend said that he wondered whether the mayor can pass the Turing Test. So I wrote a chatbot which kept replying "FA-DA-CAI" to the incoming requests. And it sort of works...
 
 > 2019 年中的時候因為某 HAN 姓市長在議會突然發大財，我學長就在說 HAN 這樣通不通得過圖靈測試，於是我就寫了一個最基本的 KF 模擬器，沒想到好像還原度偏高。
 
